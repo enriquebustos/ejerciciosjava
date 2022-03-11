@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="../css/switch.css" rel="stylesheet">
+    <title>Switch - Case</title>
+  </head>
+  <body>
+    <h1>¿Qué día es hoy?</h1>
+    <div id="fechaHoy">
+      <script src="../js/switch.js"></script>
+      <script>
+        for (i=1; i<7; i++) {
+          document.write("<h"+i + ">" + queDia() + "</h"+i+">");
+        }
+      </script>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="../js/switch.js"></script>
+  </body>
+</html>

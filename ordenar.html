@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="../css/ordenar.css" rel="stylesheet">
+    <title>Ordenar en JS</title>
+  </head>
+
+  <body>
+    <h1>Ordenamiento en JavaScript</h1>
+    <div class="contenedor">
+    <script src="../js/ordenar.js"></script>
+    <script>      
+      document.writeln("<h2>Elementos Alfanuméricos</h2>");
+      document.writeln(ordenaString());
+      document.writeln("<br><br>");
+      document.writeln("<i>"+"  El ordenamiento de elementos alfanuméricos es correcto"+"</i>");
+      document.writeln("<br><br>");
+      document.writeln("<h2>Elementos Alfanuméricos (Mayúsculas y Minúsculas)</h2>");
+      document.writeln(ordenaStringMayMin());
+      document.writeln("<br><br>");
+      document.writeln("<i>"+"  El ordenamiento de elementos alfanuméricos es incorrecto"+"</i>");
+      document.writeln("<br>"+"<br>");
+      document.writeln("<h2>Elementos Alfanuméricos (May. y Min.) Mejorado</h2>");
+      document.writeln(ordenaStringMayMinMej());
+      document.writeln("<br><br>");
+      document.writeln("<i>"+"  El ordenamiento de elementos alfanuméricos es correcto"+"</i>");
+      document.writeln("<br>"+"<br>");
+      document.writeln("<h2>Elementos Numéricos</h2>");
+      document.writeln(ordenaNumeros());
+      document.writeln("<br><br>");
+      document.writeln("<i>"+"  El ordenamiento de números no es correcto, buscar otro metodo"+"</i>");
+      document.write("<br>"+"<br>");
+      document.writeln("<h2>Nuevo Sistema Ordenamiento Numérico</h2>");
+      document.writeln(ordenaNumerosAsc());
+      document.writeln("<br><br>");
+      document.writeln(ordenaNumerosDesc());
+      document.writeln("El ordenamiento de números es correcto");
+      document.writeln("<br><br>");
+    </script>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

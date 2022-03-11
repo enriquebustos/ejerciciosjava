@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comparacion JSON - JS</title>
+  Curso JSON desde CERO
+</head>
+<body>
+  <script>
+    var puerta = {
+      "id" : 1 ,
+      "nombre": "Puerta de roble",
+      "precio": 250.50,
+      "etiquetas": ["puerta", "madera", "roble"]
+    }
+    console.log(puerta.nombre); /* o tambien console.log(puerta["nombre"]) */
+    console.log(puerta["precio"]); /* también es válido entre corchetes */
+    alert(puerta.etiquetas[2]);
+  </script>
+</body>
+</html>
